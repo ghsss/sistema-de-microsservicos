@@ -23,7 +23,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-elasticsearch'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-client' // NECESSARIO PARA SE CONECTAR AO EUREKA SERVER
-	testImplementation('org.springframework.boot:spring-boot-starter-test') {
+	testImplementation('org.springframework.boot:spring-boot-starter-test') {https://github.com/salllineed/sistema-de-microsservicos.git
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
 }
